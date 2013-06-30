@@ -1,0 +1,26 @@
+Mehani:2007:
+
+Descrição: uma entidade contém uma representação em forma de grafo dos
+           caminhos que um veículo pode seguir no cruzamento. As
+           interesecções dos caminhos são utilizadas como pontos de reserva.
+           Um veículo precisa por tanto receber a geometria, calcular as
+           reservas necessárias, e requisitar a entidade de controle de
+           reservas, que pode aceitar ou rejeitar o conjunto de reservas.
+
+Vantagens
+	- Simples
+	- Escalável
+	- Parte do algoritmo é executado nos veículos
+Desvantagens
+	- Requer geometria de caminhos possíveis no cruzamento
+	- Veículos precisam calcular suas reservas
+	- Tentativa e erro de reservas
+	- Não é ótimo
+Questionamentos
+	- O artigo diz que devido a independência das partes, oferece
+          flexibilidade. Quanto é isso e como se compara?
+	- Como reage com fluxo excessivo de veículos?
+	- Tolerância a falhas?
+	- Pelo simulador, melhoria de 30% em relação ao método de reserva
+          do cruzamento inteiro, mas ainda é 25% do método sem reserva mas
+          com colisões
