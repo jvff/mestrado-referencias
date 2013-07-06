@@ -1,4 +1,5 @@
 Mehani:2007:
+------------
 
 Descrição: uma entidade contém uma representação em forma de grafo dos
            caminhos que um veículo pode seguir no cruzamento. As
@@ -8,19 +9,36 @@ Descrição: uma entidade contém uma representação em forma de grafo dos
            reservas, que pode aceitar ou rejeitar o conjunto de reservas.
 
 Vantagens
-	- Simples
-	- Escalável
-	- Parte do algoritmo é executado nos veículos
+  - Simples
+  - Escalável
+  - Parte do algoritmo é executado nos veículos
 Desvantagens
-	- Requer geometria de caminhos possíveis no cruzamento
-	- Veículos precisam calcular suas reservas
-	- Tentativa e erro de reservas
-	- Não é ótimo
+  - Requer geometria de caminhos possíveis no cruzamento
+  - Veículos precisam calcular suas reservas
+  - Tentativa e erro de reservas
+  - Não é ótimo
 Questionamentos
-	- O artigo diz que devido a independência das partes, oferece
-          flexibilidade. Quanto é isso e como se compara?
-	- Como reage com fluxo excessivo de veículos?
-	- Tolerância a falhas?
-	- Pelo simulador, melhoria de 30% em relação ao método de reserva
-          do cruzamento inteiro, mas ainda é 25% do método sem reserva mas
-          com colisões
+  - O artigo diz que devido a independência das partes, oferece flexibilidade.
+    Quanto é isso e como se compara?
+  - Como reage com fluxo excessivo de veículos?
+  - Tolerância a falhas?
+  - Pelo simulador, melhoria de 30% em relação ao método de reserva do
+    cruzamento inteiro, mas ainda é 25% do método sem reserva mas com colisões
+
+Althoff:2012:
+-------------
+
+Descrição: algoritmo algébrico para cálculo de trajetóra ótima sem colisão para
+           veículos autônomos em alta velocidade em uma estrada
+
+Vantagens
+  - Algébrico
+  - Rápido
+Desvantagens
+  - Não leva em consideração obstáculos e imprevisibilidades
+Questionamentos
+  - É dito que é possível gerar entradas inváldias ao algoritmo, mas que na
+    prática isso não importa. Porque?
+  - Escalabilidade?
+Comentários
+  - Confuso. Ler referências e voltar
