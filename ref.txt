@@ -3,10 +3,11 @@ Mehani:2007:
 
 Descrição: uma entidade contém uma representação em forma de grafo dos
            caminhos que um veículo pode seguir no cruzamento. As
-           interesecções dos caminhos são utilizadas como pontos de reserva.
-           Um veículo precisa por tanto receber a geometria, calcular as
-           reservas necessárias, e requisitar a entidade de controle de
-           reservas, que pode aceitar ou rejeitar o conjunto de reservas.
+           interesecções dos caminhos são utilizadas como pontos de
+           reserva. Um veículo precisa por tanto receber a geometria,
+           calcular as reservas necessárias, e requisitar a entidade de
+           controle de reservas, que pode aceitar ou rejeitar o conjunto
+           de reservas.
 
 Vantagens
   - Simples
@@ -18,18 +19,21 @@ Desvantagens
   - Tentativa e erro de reservas
   - Não é ótimo
 Questionamentos
-  - O artigo diz que devido a independência das partes, oferece flexibilidade.
+  - O artigo diz que devido a independência das partes, oferece
+    flexibilidade.
     Quanto é isso e como se compara?
   - Como reage com fluxo excessivo de veículos?
   - Tolerância a falhas?
   - Pelo simulador, melhoria de 30% em relação ao método de reserva do
-    cruzamento inteiro, mas ainda é 25% do método sem reserva mas com colisões
+    cruzamento inteiro, mas ainda é 25% do método sem reserva mas com
+    colisões
 
 Althoff:2012:
 -------------
 
-Descrição: algoritmo algébrico para cálculo de trajetóra ótima sem colisão para
-           veículos autônomos em alta velocidade em uma estrada
+Descrição: algoritmo algébrico para cálculo de trajetóra ótima sem
+           colisão para veículos autônomos em alta velocidade em uma
+           estrada
 
 Vantagens
   - Algébrico
