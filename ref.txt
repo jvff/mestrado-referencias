@@ -41,8 +41,29 @@ Vantagens
 Desvantagens
   - Não leva em consideração obstáculos e imprevisibilidades
 Questionamentos
-  - É dito que é possível gerar entradas inváldias ao algoritmo, mas que na
-    prática isso não importa. Porque?
+  - É dito que é possível gerar entradas inváldias ao algoritmo, mas que
+    na prática isso não importa. Porque?
   - Escalabilidade?
 Comentários
   - Confuso. Ler referências e voltar
+
+Gregoire:2013:
+--------------
+
+Descrição: formulação matemática para representar trajetórias em
+           intersecções, prova que não há deadlock, prova que a
+           representação é única para todos os trajetos entre os mesmos
+           terminais, elaboração de um método de montar a representação
+           dinamicamente em tempo real
+
+Vantagens
+  - Abstração permite um estudo melhor para extrair propriedades
+  - Mais eficiente na descoberta de falsos deadlocks
+Desvantagens
+  - Não leva em consideração aceleração (pode haver frenagem infinita)
+  - Na implementação atual os veículos estão ou parados ou em velocidade
+    máxima
+  - Não há adaptação para imprevisibilidades
+  - Não há reorganização de fluxo (camada superior)
+Comentários
+  - Confuso, depende dos trabalhos anteriores. Ler referências e voltar
