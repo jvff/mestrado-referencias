@@ -67,3 +67,19 @@ Desvantagens
   - Não há reorganização de fluxo (camada superior)
 Comentários
   - Confuso, depende dos trabalhos anteriores. Ler referências e voltar
+
+Bosque:2009:
+------------
+
+Descrição: trabalho de conclusão de curso implementando um sistema
+           prático de controle de enxames usando campos de força e
+           modelagem de partículas como se fosse um fluído
+
+Vantagens
+  - Relativamente simples
+  - Eficaz
+Desvantagens
+  - Algoritmo não foi capaz de rodar nos robôs
+  - Ambiente navegado precisa ser previamente conhecido
+  - Algoritmo custoso
+  - Navegação externa
