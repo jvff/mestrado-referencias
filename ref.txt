@@ -83,3 +83,15 @@ Desvantagens
   - Ambiente navegado precisa ser previamente conhecido
   - Algoritmo custoso
   - Navegação externa
+
+Freitas:2010:
+-------------
+
+Descrição: trabalho de conclusão de curso implementando lógica fuzzy
+           para controle de velocidade de um veículo autônomo
+
+Vantagens
+  - Aparentemente eficaz
+  - Relativamente simples
+Desvantagens
+  - Não funcionou como esperado em aclive
