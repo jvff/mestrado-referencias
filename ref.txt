@@ -95,3 +95,11 @@ Vantagens
   - Relativamente simples
 Desvantagens
   - Não funcionou como esperado em aclive
+
+Luo:2004:
+---------
+
+Descrição: resumo sucinto de algumas tecnologias de comunicação
+           intra-veicular, sobre bandas utilizadas, protocolos MAC e
+           mobilidade. Aspecto mais importante do artigo: deve se dar
+           mais importância a comunicação entre o grupo como um todo
