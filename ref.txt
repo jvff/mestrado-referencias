@@ -103,3 +103,16 @@ Descrição: resumo sucinto de algumas tecnologias de comunicação
            intra-veicular, sobre bandas utilizadas, protocolos MAC e
            mobilidade. Aspecto mais importante do artigo: deve se dar
            mais importância a comunicação entre o grupo como um todo
+
+Ammoun:2007:
+------------
+
+Descrição: modelagem da mudança de faixa e proposta de uso de
+           comunicação intra-veicular para evitar colisão
+
+Vantagens:
+  - Eficaz
+  - Simples
+Desvantagens
+  - Utiliza apenas GPS
+  - Margens do tolerância de posição são relativamentes grandes
