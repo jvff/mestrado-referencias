@@ -1,0 +1,12 @@
+- Estudo da relação entre velocidade de travessia e do número de
+  veículos inteligentes realizando a travessia
+  - Quanto mais veículos, mais inteligência sobre o cruzamento e
+    consequentemente maior a velocidade em teoria
+- Mudança emergencial de faixas para desviar de obstáculos
+  - Verificar o que seria preciso para uma via "lotada" permitir que
+    veículos façam manobras emergenciais para desviar de obstáculos
+- Estudo de comunicação em um sistema híbrido
+  - Carros 'burros'
+  - Carros com tomada de decisão individual
+  - Carros com tomada de decisão coletiva
+- Mapeamento coletivo por veículos explorando uma região
