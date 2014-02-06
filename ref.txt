@@ -130,3 +130,20 @@ Vantagens:
 Desvantagens:
   - Necessita grandes investimentos na área de infraestrutura da pista
   - Pouca inteligência é colocada nos veículos
+
+Misener:2006:
+-------------
+
+Descrição: resumo das principais áreas de pesquisa do PATH (California
+           Partners for Advanced Transit Highways)
+
+Tópicos:
+  - Controle de uma frota de veículos na estrada
+  - Controle longitudinal e lateral de caminhões
+  - Assistência a pilotos de escavadeiras de neve
+  - Exeprimentos com comunicação sem fio (WiFi) entre veículos
+    compartilhando posição obtida por fusão de sensores
+  - Detecção colaborativa de condições na pista
+
+Desvantagens:
+  - Controle lateral do caminhão apresentou erros de até 60 cm na faixa
