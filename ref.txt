@@ -116,3 +116,17 @@ Vantagens:
 Desvantagens
   - Utiliza apenas GPS
   - Margens do tolerância de posição são relativamentes grandes
+
+Nakamura:1994:
+--------------
+
+Descrição: descrição de um sistema de comunicação entre ruas e carros,
+           usando um cabo coaxial ao longo da pista com cortes para
+           "vazar" radio-frequências e operar como uma "antena gigante"
+
+Vantagens:
+  - Permite transição controlada para veículos autônomos
+  - Facilita avisos aos motoristas
+Desvantagens:
+  - Necessita grandes investimentos na área de infraestrutura da pista
+  - Pouca inteligência é colocada nos veículos
