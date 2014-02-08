@@ -147,3 +147,22 @@ Tópicos:
 
 Desvantagens:
   - Controle lateral do caminhão apresentou erros de até 60 cm na faixa
+
+Likhachev:2009:
+---------------
+
+Descrição: resumo das técnicas de navegação utilizadas por uma equipe
+           vencedora do prêmio DARPA de mobilidade urbana. Usa um mapa 
+           discreto das configuações possíveis do veículo (poses) para
+           percorrer o grafo usando heurísticas (A* incremental e
+           inflacionário) e planejar manobras
+
+Vantagens:
+  - Eficaz
+  - Eficiente
+  - Incremental
+  - Adaptativo
+  - Não requer paradas do veículo para recalcular
+Desvantagens:
+  - Complexidade do mapa
+  - Limites da discretização do mapa
