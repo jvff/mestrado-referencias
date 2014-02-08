@@ -10,3 +10,5 @@
   - Carros com tomada de decisão individual
   - Carros com tomada de decisão coletiva
 - Mapeamento coletivo por veículos explorando uma região
+- Aplicar Likhachev:2009 para calcular manobras coletivas
+  - Parar múltiplos carros em uma garagem
