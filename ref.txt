@@ -166,3 +166,21 @@ Vantagens:
 Desvantagens:
   - Complexidade do mapa
   - Limites da discretização do mapa
+
+Wurman:2008:
+------------
+
+Descrição: apresentação de um sistema comercial para movimentação de
+           produtos em estoque de um centro de distribuição através do
+           uso de robôs autônomos cooperativos. Interessante que eles
+           definem cooperativo como a necessidade que um robô tem do
+           auxílio de outro robô para completar sua tarefa. A* é
+           utilizado para planejar as rotas
+
+Vantagens:
+  - Muito flexível (não requer instalações estáticas)
+  - Não há ponto único de falha
+  - Escalável
+  - Muito eficiente
+Desvantagens:
+  - Não faz otimização global para permitir margem de segurança maior
