@@ -184,3 +184,23 @@ Vantagens:
   - Muito eficiente
 Desvantagens:
   - Não faz otimização global para permitir margem de segurança maior
+
+
+Baras:2003:
+-----------
+
+Descrição: proposta do uso de campo vetorial de potência para veículos
+           caminharem rumo a um alvo desviando de obstáculos e de
+           ameaças móveis. Prova de algumas características como a
+           existência de solução possível
+
+Vantagens:
+  - Simples
+  - Modelagem rápida
+Desvantagens:
+  - Em alguns casos não atinge a região alvo
+  - Pode haver existência de mínimos locais?
+Notas:
+  - Pode ser usado como heurística?
+
+Vant
