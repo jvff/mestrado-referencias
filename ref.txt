@@ -203,4 +203,20 @@ Desvantagens:
 Notas:
   - Pode ser usado como heurística?
 
-Vant
+Sales:2012:
+-----------
+
+Descrição: proposta de implantação de sistema de vigilância e patrulha
+           com o uso de robôs autônomos. Foco no sistema de navegação
+           com a modelagem do ambiente como um grafo, o uso de uma
+           máquina de estados para modelar o comportamento e o use de
+           redes neurais para detectar características do ambiente para
+           a localização
+
+Vantagens:
+  - Eficaz
+Desvantagens:
+  - Muito simplificado
+  - Pouca cooperação
+  - Não há discussão sobre planejamento ou adaptação do planejamento
+    para otimizar o percurso de patrulha
