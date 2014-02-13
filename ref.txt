@@ -229,3 +229,17 @@ Descrição: proposta do uso de vários veículos autônomos para criar
 
 Notas:
   - Preciso estudar "Particle Swarm Optimization"
+
+Gil:2003:
+---------
+
+Descrição: simulação de um sistema que faz planejamento cooperativo
+           entre vários VANTs usando uma rede com atrasos aleatórios
+           mas limitados. Provam que há um limite máximo de tempo para
+           resolver as tarefas que depende da distância entre os
+           destinos, a relação entre VANTs e tarefas e o atraso máximo
+           da rede
+
+Notas:
+  - A contribuição é justamente a possibilidade de verificar se cooperar
+    vai ser benéfico no ambiente
