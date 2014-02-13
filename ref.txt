@@ -243,3 +243,17 @@ Descrição: simulação de um sistema que faz planejamento cooperativo
 Notas:
   - A contribuição é justamente a possibilidade de verificar se cooperar
     vai ser benéfico no ambiente
+
+Woo:2001:
+---------
+
+Descrição: proposta para localização relativa de veículos em um comboio
+           utilizando diferenças no sinal de GPS e radares
+
+Vantagens:
+  - Utiliza tecnologia bem conhecida
+  - Erro pequeno
+  - Filtro utilizado permite incorporar mais sensores
+Desvantagens:
+  - Uso de radar
+  - Não foi testado
