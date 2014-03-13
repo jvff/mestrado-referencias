@@ -257,3 +257,20 @@ Vantagens:
 Desvantagens:
   - Uso de radar
   - Não foi testado
+
+Canudas:1999:
+-------------
+
+Descrição: estudo da estabilidade do controle de vários veículos
+           enfileirados. Proposta para um novo critério de estabilidade
+
+Notas:
+  - Provou que se o objetivo é manter todos os carros a uma distância
+    fixa entre si, a função de transferência do controle de segunda
+    ordem não pode ter todos os mesmos coeficientes em todos os veículos
+  - Mostra que se o objetivo é manter uma distância proporcional à
+    velocidade, o sistema é estável
+  - Talvez os papers citados sejam interessantes para entender melhor a
+    proposta desse trabalho e para estudar os conceitos de estabilidade
+  - Há um comentário peculiar sobre como colisões entre os veículos
+    podem ser utilizadas para dissipar energia do sistema
