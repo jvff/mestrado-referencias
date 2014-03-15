@@ -274,3 +274,22 @@ Notas:
     proposta desse trabalho e para estudar os conceitos de estabilidade
   - Há um comentário peculiar sobre como colisões entre os veículos
     podem ser utilizadas para dissipar energia do sistema
+
+Lee:2003:
+---------
+
+Descrição: proposta de dois controladores que controlam o coeficiente de
+           derrapagem do veículo variando o torque. Fuzzy-logic para o
+           caso de não haver uma modelagem de pneu e Sliding-Mode para o
+           caso de have uma modelagem dos pneus e o único parâmetro a
+           ser estimado é o coeficiente de aderência
+
+Vantagens:
+  - Utiliza um modelo veicular bem simplificado
+  - Robusto (fuzzy funcionou bem sem um modelo do pneu)
+  - Adaptativo às mudanças nas condições da pista
+Desvantagens:
+  - Não-linear
+  - Frenagem modelada sem aplicação individual em cada roda
+  - Não modela controle lateral, necessário para o caso de comboios como
+    exemplificado
