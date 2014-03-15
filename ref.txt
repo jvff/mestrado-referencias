@@ -293,3 +293,22 @@ Desvantagens:
   - Frenagem modelada sem aplicação individual em cada roda
   - Não modela controle lateral, necessário para o caso de comboios como
     exemplificado
+
+Contet:2006:
+------------
+
+Descriçao: proposta de um sistema de vários agentes para a formação de
+           comboios. Cada veículo só interage com os veículos adjacentes
+           de forma que a conexão entre os veículos é modelado como um
+           sistema mola-amortecedor. Proposta também de um sistema para
+           que veículos entrem e saiam do comboio
+
+Vantagens:
+  - Relativamente simples
+  - Comunicação reduzida
+  - Sistema de inserção e remoção de nós
+  - Controle longitudinal e lateral
+Desvantagens:
+  - Erros acumulam ao longo da fila
+Nota:
+  - Implementado com robôs elétricos pequenos
