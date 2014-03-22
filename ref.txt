@@ -353,3 +353,19 @@ Descrição: leve aprimoramento de Contet:2006, mudando a conexão entre os
 
 Vantagens:
   - Menor erro
+
+Tank:1997:
+----------
+
+Descrição: estudo da qualidade do sinal de transmissão sem-fio entre
+           veículos, sujeito a interferência do solo e de outros
+           veículos. Proposta do uso de TDMA ou CDMA para comunicação.
+           Usa antenas no começo e no fim do veículo.
+
+Vantagens:
+  - Facilita o projeto de uma rede com menor interferência
+Desvantagens:
+  - Atualmente esse tipo de projeto não faz sentido econômico
+Nota:
+  - Trabalho aparentemente bem completo
+  - Pode se tornar importante com a ascensão de Software-Defined Radios
