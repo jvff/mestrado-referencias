@@ -328,3 +328,18 @@ Vantagens:
 Desvantagens:
   - Não foi estudado confiabilidade da rede
   - Veículo com sensor vira um ponto de falha
+
+Alam:2011:
+----------
+
+Descrição: aplica teoria dos jogos para identificar a distância mínimia
+           de segurança entre caminhões em uma frota automatizada.
+
+Vantagens:
+  - Eficaz
+  - Simples
+Nota:
+  - Quanto maior o poder de frenagem, mais para trás o veículo deve
+    estar na fila para maior segurança
+  - Interessante como o arrasto aerodinâmico maior no primeiro veículo
+    aumenta o poder de frenagem do veículo
