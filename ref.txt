@@ -312,3 +312,19 @@ Desvantagens:
   - Erros acumulam ao longo da fila
 Nota:
   - Implementado com robôs elétricos pequenos
+
+Avanzini:2008:
+--------------
+
+Descrição: discute o uso de câmeras baratas para obter a localização de
+           um veículo na trajetória, assim como a comunicação entre os
+           veículos de uma frota para que um deles, equipado com um
+           sensor a laser, possa passar informação aos outros para
+           melhorar o processo de localização.
+
+Vantagens:
+  - Baixo custo
+  - Eficaz
+Desvantagens:
+  - Não foi estudado confiabilidade da rede
+  - Veículo com sensor vira um ponto de falha
