@@ -343,3 +343,13 @@ Nota:
     estar na fila para maior segurança
   - Interessante como o arrasto aerodinâmico maior no primeiro veículo
     aumenta o poder de frenagem do veículo
+
+JeanMichel:2007:
+----------------
+
+Descrição: leve aprimoramento de Contet:2006, mudando a conexão entre os
+           veículos de mola-amortecedor para algo semelhante a atração
+           gravitacional em um fluido.
+
+Vantagens:
+  - Menor erro
