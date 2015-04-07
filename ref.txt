@@ -369,3 +369,9 @@ Desvantagens:
 Nota:
   - Trabalho aparentemente bem completo
   - Pode se tornar importante com a ascensão de Software-Defined Radios
+
+Fulkerson:2012:
+---------------
+
+Descrição: implementação em GPU de um algoritmo para segmentação de
+           imagens, com operação similar ao Mean-Shift.
