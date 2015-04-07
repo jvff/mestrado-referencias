@@ -380,3 +380,11 @@ Ren:2011:
 ---------
 
 Descrição: implementação em GPU do algoritmo SLIC.
+
+Achanta:2010:
+-------------
+
+Descrição: algoritmo SLIC para segmentação de imagens em super pixels.
+           Tem complexidade O(N) e foi projetado para gerar super pixels
+           com um grau de uniformidade maior. É comparado com Watershed,
+           TurboPixels, Normalized Cuts, etc.
