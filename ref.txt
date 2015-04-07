@@ -375,3 +375,8 @@ Fulkerson:2012:
 
 Descrição: implementação em GPU de um algoritmo para segmentação de
            imagens, com operação similar ao Mean-Shift.
+
+Ren:2011:
+---------
+
+Descrição: implementação em GPU do algoritmo SLIC.
