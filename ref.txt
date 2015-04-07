@@ -388,3 +388,15 @@ Descrição: algoritmo SLIC para segmentação de imagens em super pixels.
            Tem complexidade O(N) e foi projetado para gerar super pixels
            com um grau de uniformidade maior. É comparado com Watershed,
            TurboPixels, Normalized Cuts, etc.
+
+Vincent:1991
+------------
+
+Descrição: algoritmo Watersheds para segmentação de imagens. A ideia é
+           segmentar uma imagem usando linhas de watersheds, ou seja,
+           linhas que identificam regiões em que haveria contenção de
+           água, de forma que uma gota d'água incidente em um pixel não
+           atravessaria nenhum watershed. A ideia é relativamente
+           simples, simulando a "imersão" da imagem (em escalas de
+           cinzas) em água, e detectando as linhas onde a água se
+           encontra.
