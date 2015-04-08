@@ -407,3 +407,10 @@ Roerdink:2000
 Descrição: estudo de diferente algoritmos para obter os watersheds de
            uma imagem digital, incluindo possibilidades de
            paralelização. No entanto, não usa GPUs.
+
+Korbes:2011:
+------------
+
+Descrição: comparação do desempenho de duas implementações do
+           Watershed em GPU. Uma delas usa Cellular Automata (pior) e a
+           outra é dos mesmos autores.
