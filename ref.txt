@@ -414,3 +414,8 @@ Korbes:2011:
 Descrição: comparação do desempenho de duas implementações do
            Watershed em GPU. Uma delas usa Cellular Automata (pior) e a
            outra é dos mesmos autores.
+
+Wagner:2010:
+------------
+
+Descrição: uma outra implementação do Watershed em GPU.
