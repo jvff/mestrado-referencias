@@ -400,3 +400,10 @@ Descrição: algoritmo Watersheds para segmentação de imagens. A ideia é
            simples, simulando a "imersão" da imagem (em escalas de
            cinzas) em água, e detectando as linhas onde a água se
            encontra.
+
+Roerdink:2000
+-------------
+
+Descrição: estudo de diferente algoritmos para obter os watersheds de
+           uma imagem digital, incluindo possibilidades de
+           paralelização. No entanto, não usa GPUs.
