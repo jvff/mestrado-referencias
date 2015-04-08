@@ -425,3 +425,8 @@ Harris:1998:
 
 Descrição: proposta de um algoritmo de segmentação que combina
            redução de ruído, filtro watershed, e união de segmentos.
+
+Vitor:2009:
+-----------
+
+Descrição: implementação do Watershed em GPU (comparado em Korbes:2011).
