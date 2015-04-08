@@ -419,3 +419,9 @@ Wagner:2010:
 ------------
 
 Descrição: uma outra implementação do Watershed em GPU.
+
+Harris:1998:
+------------
+
+Descrição: proposta de um algoritmo de segmentação que combina
+           redução de ruído, filtro watershed, e união de segmentos.
