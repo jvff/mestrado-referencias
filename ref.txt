@@ -430,3 +430,10 @@ Vitor:2009:
 -----------
 
 Descrição: implementação do Watershed em GPU (comparado em Korbes:2011).
+
+Shotton:2006:
+-------------
+
+Descrição: proposta do algoritmo TextonBoost para realizar
+           segmentação e classificação de imagens de forma unificada,
+           usando estatística e textons.
