@@ -437,3 +437,17 @@ Shotton:2006:
 Descrição: proposta do algoritmo TextonBoost para realizar
            segmentação e classificação de imagens de forma unificada,
            usando estatística e textons.
+
+Malik:1999:
+-----------
+
+Descrição: proposta para segmentação de imagens em tons de cinza com
+           base na textura dos objetos, usando chamados Textons. A ideia
+           é aplicar uma série de filtros na imagem para identificar
+           características. Os vetores de cada pixel compostos pelos
+           resultados da aplicação de cada filtro naquele pixel são
+           então agrupados em clusters para definir as características
+           dominantes, usando o K-means clustering. A proximidade dos
+           vetores com os grupos encontrados é utilizado para
+           classificar o pixel original como pertencendo a um dos
+           grupos.
