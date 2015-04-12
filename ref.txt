@@ -451,3 +451,14 @@ Descrição: proposta para segmentação de imagens em tons de cinza com
            vetores com os grupos encontrados é utilizado para
            classificar o pixel original como pertencendo a um dos
            grupos.
+
+Leung:2001:
+-----------
+
+Descrição: proposta para identificação de texturas em imagens quando há
+           uso de diferentes condições de iluminação e visualização. A
+           ideia é montar texturas tridimensionais compostas por várias
+           texturas bidimensionais da mesma textura da superfície em
+           condições de iluminação e visualização diferentes, e então
+           extrair textons tridimensionais para obter características da
+           textura.
