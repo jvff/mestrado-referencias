@@ -467,3 +467,28 @@ Lafferty:2001:
 --------------
 
 Descrição: detalhamento dos Conditional Random Fields.
+
+Viola:2001:
+-----------
+
+Descrição: explicação de um método para detecção de objetos de forma
+           rápida. Três contribuições estão presentes: uso de imagens
+           integrais, uma extensão do AdaBoost para selecionar features
+           e uma forma em cascata para construir um detector eficiente.
+           A técnica procura por features em uma janela da imagem.
+           Features são retângulos posicionados posicionados dentro da
+           janela que somam ou subtraem o valor da soma dos pixels
+           dentro do retângulo para gerar um valor resultante. A
+           janela de detecção é deslizada pela imagem para fazer a busca
+           e depois a janela e as features são escaladas para procurar
+           objetos em escalas diferentes. Para reduzir o custo
+           computacional, vários detectores são usados em cascata. Eles
+           são ajustados para no começo possuirem poucas features e um
+           alto grau de aceitação (o que resulta também em um alto grau
+           de falsos positivos) e são usados para descartar janelas com
+           pouco potencial de conter um rosto com o mínimo de
+           processamento possível. A seleção das features a serem
+           utilizadas é feita através de uma variação de AdaBoost, em
+           que um conjunto de pesos para cada imagem de testes é usado
+           para priorizar as imagens incorretas a cada rodada. A cada
+           rodada, a melhor feature é selecionada.
