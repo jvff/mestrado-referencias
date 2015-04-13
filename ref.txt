@@ -492,3 +492,14 @@ Descrição: explicação de um método para detecção de objetos de forma
            que um conjunto de pesos para cada imagem de testes é usado
            para priorizar as imagens incorretas a cada rodada. A cada
            rodada, a melhor feature é selecionada.
+
+Torralba:2004:
+--------------
+
+Descrição: proposta do método JointBoost. É baseado na extensão do
+           AdaBoost descrito em Viola:2001, mas ao invés de usar as
+           features de forma separada e selecioná-las, ele seleciona
+           grupos de features entre todos os conjuntos possíveis de
+           juntar as features disponíveis. Um método "greedy" para
+           encontrar os conjuntos também é descrito, para reduzir o
+           custo computacional para encontrar os melhores conjuntos.
