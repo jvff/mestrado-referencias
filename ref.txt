@@ -462,3 +462,8 @@ Descrição: proposta para identificação de texturas em imagens quando há
            condições de iluminação e visualização diferentes, e então
            extrair textons tridimensionais para obter características da
            textura.
+
+Lafferty:2001:
+--------------
+
+Descrição: detalhamento dos Conditional Random Fields.
