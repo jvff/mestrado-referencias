@@ -509,3 +509,14 @@ Muhlmann:2002
 
 Descrição: descrição de um algoritmo eficiente para calcular o disparity
            map de duas imagens estereoscópicas.
+
+Labayrade:2002
+--------------
+
+Descrição: uso de v-displacement maps para detectar a pista mesmo quando
+           não é plana e para detectar obstáculos. Um V-displacement map
+           é semelhante a um histograma bidimensional, em que cada pixel
+           contém a contagem de pixels de uma mesma linha com o mesmo
+           valor de disparidade. É um método robusto para detectar
+           obstáculos pois não depende de extração de feautures da
+           imagem.
