@@ -520,3 +520,18 @@ Descrição: uso de v-displacement maps para detectar a pista mesmo quando
            valor de disparidade. É um método robusto para detectar
            obstáculos pois não depende de extração de feautures da
            imagem.
+
+Duda:1972
+---------
+
+Descrição: variação do Hugh transform para detectar linhas que passam
+           por um conjunto de pontos. A ideia é criar um mapeamento
+           entre pontos e retas. Um reta é representado por dois
+           parâmetros, inclinação e distância da origem. Esses dois
+           parâmetros são as coordenadas U,V de um mapa que representa
+           uma quantização de todas as retas possíveis na imagem
+           origanal. A transformação então mapeia todos os pontos em
+           curvas no mapa, identificando todas as retas que passam por
+           aquele ponto. O mapa é acumulado como resultado de todos os
+           pontos. Os pixels do mapa com maior valor indicam as retas
+           que contém o maior número do pontos coincidentes.
