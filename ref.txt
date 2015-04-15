@@ -535,3 +535,9 @@ Descrição: variação do Hugh transform para detectar linhas que passam
            aquele ponto. O mapa é acumulado como resultado de todos os
            pontos. Os pixels do mapa com maior valor indicam as retas
            que contém o maior número do pontos coincidentes.
+
+Soquet:2007
+-----------
+
+Descrição: uso do U,V-disparity maps para detectar obstáculos e a pista.
+           É adaptado também para ser robusto com ruas não-estruturadas.
