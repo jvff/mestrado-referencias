@@ -503,3 +503,9 @@ Descrição: proposta do método JointBoost. É baseado na extensão do
            juntar as features disponíveis. Um método "greedy" para
            encontrar os conjuntos também é descrito, para reduzir o
            custo computacional para encontrar os melhores conjuntos.
+
+Muhlmann:2002
+-------------
+
+Descrição: descrição de um algoritmo eficiente para calcular o disparity
+           map de duas imagens estereoscópicas.
