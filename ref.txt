@@ -541,3 +541,9 @@ Soquet:2007
 
 Descrição: uso do U,V-disparity maps para detectar obstáculos e a pista.
            É adaptado também para ser robusto com ruas não-estruturadas.
+
+Vitor:2014
+----------
+
+Descrição: tese de doutorado do Giovani. Descrição do algoritmo de
+           percepção implementado.
