@@ -552,3 +552,9 @@ Kuffmann:2008:
 --------------
 
 Descrição: uso de cellular automata para implementar o Watershed em GPU.
+
+Digabel:1978:
+-------------
+
+Descrição: primeira descrição da transformação Watershed. Não foi
+           possível acessar a referência.
