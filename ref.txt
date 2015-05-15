@@ -504,14 +504,14 @@ Descrição: proposta do método JointBoost. É baseado na extensão do
            encontrar os conjuntos também é descrito, para reduzir o
            custo computacional para encontrar os melhores conjuntos.
 
-Muhlmann:2002
--------------
+Muhlmann:2002:
+--------------
 
 Descrição: descrição de um algoritmo eficiente para calcular o disparity
            map de duas imagens estereoscópicas.
 
-Labayrade:2002
---------------
+Labayrade:2002:
+---------------
 
 Descrição: uso de v-displacement maps para detectar a pista mesmo quando
            não é plana e para detectar obstáculos. Um V-displacement map
@@ -521,8 +521,8 @@ Descrição: uso de v-displacement maps para detectar a pista mesmo quando
            obstáculos pois não depende de extração de feautures da
            imagem.
 
-Duda:1972
----------
+Duda:1972:
+----------
 
 Descrição: variação do Hugh transform para detectar linhas que passam
            por um conjunto de pontos. A ideia é criar um mapeamento
@@ -536,19 +536,19 @@ Descrição: variação do Hugh transform para detectar linhas que passam
            pontos. Os pixels do mapa com maior valor indicam as retas
            que contém o maior número do pontos coincidentes.
 
-Soquet:2007
------------
+Soquet:2007:
+------------
 
 Descrição: uso do U,V-disparity maps para detectar obstáculos e a pista.
            É adaptado também para ser robusto com ruas não-estruturadas.
 
-Vitor:2014
-----------
+Vitor:2014:
+-----------
 
 Descrição: tese de doutorado do Giovani. Descrição do algoritmo de
            percepção implementado.
 
-Kuffmann:2008
--------------
+Kuffmann:2008:
+--------------
 
 Descrição: uso de cellular automata para implementar o Watershed em GPU.
