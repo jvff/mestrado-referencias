@@ -547,3 +547,8 @@ Vitor:2014
 
 Descrição: tese de doutorado do Giovani. Descrição do algoritmo de
            percepção implementado.
+
+Kuffmann:2008
+-------------
+
+Descrição: uso de cellular automata para implementar o Watershed em GPU.
