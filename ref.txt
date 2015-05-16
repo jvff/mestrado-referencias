@@ -558,3 +558,24 @@ Digabel:1978:
 
 Descrição: primeira descrição da transformação Watershed. Não foi
            possível acessar a referência.
+
+Jones:1992:
+-----------
+
+Descrição: descreve um método iterativo para obter imagens de
+           disparidade a partir de imagens estereoscópicas. Não assume
+           geometria inicial das câmeras, sendo capaz de obtê-la. O
+           método aplica uma série de filtros nas imagens, e obtêm para
+           cada pixel um vetor de respostas à cada filtro. Estas
+           características são então comparadas em cada imagem para
+           encontrar as melhores combinações. Um método para verificar a
+           redundância dos filtros escolhidos também é descrito, que
+           ajuda a formar uma base ortonormal de filtros. Um método para
+           reconstruir um pedaço daa imagem a partir de um vetor de
+           resposta também é descrito, e é a base para se obter a imagem
+           dos textons obtidos em Malik:1999. Em seguida, iterações são
+           realizadas para melhorar o resultado. Correções na geometria
+           utilizada são calculados, uma imagem de visibilidade é gerada
+           para identificar regiões que só são visíveis em uma das
+           imagens, e regiões com muito ruído são refeitas com filtros
+           mais pequenos para melhorar as disparidades.
