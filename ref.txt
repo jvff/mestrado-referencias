@@ -579,3 +579,27 @@ Descrição: descreve um método iterativo para obter imagens de
            para identificar regiões que só são visíveis em uma das
            imagens, e regiões com muito ruído são refeitas com filtros
            mais pequenos para melhorar as disparidades.
+
+Vincent:1993:
+-------------
+
+Descrição: descreve o método de reconstrução morfológica para imagens em
+           tons de cinza. É a base do algoritmo Hmin usado em
+           Vitor:2014. É uma extensão do algoritmo de reconstrução
+           morfológica para imagens binárias. Para imagens binárias, a
+           ideia é, a partir de marcadores inicias, reconstruir a forma
+           dos elementos na figura que contém os marcadores. É similar
+           a algoritmos de rotulação de formas em imagens binárias, mas
+           só rotula as formas que contém um marcador e não há o uso de
+           rótulos. A extensão do método para imagens de tons de cinza é
+           feita tratando cada nível de cinza como uma imagem binária
+           separada. Um pré-requisito é que a imagem marcadora tenha
+           todos os pixels menores ou iguais aos pixels respectivos da
+           imagem máscara (imagem usada para a reconstrução das formas).
+           Usando como imagem marcadora uma imagem igual à imagem
+           máscara com todos os pixels subtraídos de um valor fixo, é
+           possível remover os picos (máximos regionais) da imagem, o
+           seria equivalente a um método Hmax. Algumas implementações
+           são discutidas. A melhor encontrada é uma implemantação
+           híbrida, que percorre a imagem inteira duas vezes e depois
+           atualiza somente os pixels das bordas dos marcadores.
