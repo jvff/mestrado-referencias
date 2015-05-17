@@ -603,3 +603,10 @@ Descrição: descreve o método de reconstrução morfológica para imagens em
            são discutidas. A melhor encontrada é uma implemantação
            híbrida, que percorre a imagem inteira duas vezes e depois
            atualiza somente os pixels das bordas dos marcadores.
+
+Karas:2011:
+-----------
+
+Descrição: implementação em GPU do método de reconstrução morfológica
+           para imagens em tons de cinza. Usa um algoritmo iterativo, e
+           que para algumas imagens o desempenho pode não ser bom.
