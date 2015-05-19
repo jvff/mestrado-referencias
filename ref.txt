@@ -610,3 +610,11 @@ Karas:2011:
 Descrição: implementação em GPU do método de reconstrução morfológica
            para imagens em tons de cinza. Usa um algoritmo iterativo, e
            que para algumas imagens o desempenho pode não ser bom.
+
+Hautiere:2006:
+--------------
+
+Descrição: um método para aprimorar uma imagem de disparidade esparsa
+           usando o "v-disparity". Com regiões preenchidas, o
+           "u-disparity" se torna mais adequado na busca pelos limites
+           laterais dos obstáculos.
