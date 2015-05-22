@@ -618,3 +618,15 @@ Descrição: um método para aprimorar uma imagem de disparidade esparsa
            usando o "v-disparity". Com regiões preenchidas, o
            "u-disparity" se torna mais adequado na busca pelos limites
            laterais dos obstáculos.
+
+Geiger:2011:
+------------
+
+Descrição: um método para recontstruir pontos tridimensionais usando
+           imagens estereoscópicas mudando no tempo. A ideia é encontrar
+           características em quatro imagens, o par de imagens
+           estereoscópicas do instante atual e o par do instante
+           anterior. A partir das disparidades das características é
+           possível obter a odometria das câmeras. Com isso, usando a
+           profundidade de cada pixel é possível formar pontos
+           tridimensionais que são atualizados com o tempo.
