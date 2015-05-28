@@ -636,3 +636,12 @@ Teodoro:2012:
 
 Descrição: implementação paralela do método para reconstrução
            morfológica em imagens em tons de cinza.
+
+Van:2011:
+---------
+
+Descrição: dois algoritmos para implementação da transformada de Hough
+           em GPU. Um deles é otimizado para ser mais rápido, enquanto o
+           outro é otimizado para ter um desempenho mais previsível. A
+           ideia pode ser resumida em usar um thread por linha no espaço
+           de Hough.
