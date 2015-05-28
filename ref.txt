@@ -630,3 +630,9 @@ Descrição: um método para recontstruir pontos tridimensionais usando
            possível obter a odometria das câmeras. Com isso, usando a
            profundidade de cada pixel é possível formar pontos
            tridimensionais que são atualizados com o tempo.
+
+Teodoro:2012:
+-------------
+
+Descrição: implementação paralela do método para reconstruir morfológica
+           em imagens em tons de cinza.
