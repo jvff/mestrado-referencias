@@ -645,3 +645,9 @@ Descrição: dois algoritmos para implementação da transformada de Hough
            outro é otimizado para ter um desempenho mais previsível. A
            ideia pode ser resumida em usar um thread por linha no espaço
            de Hough.
+
+Moras:2013:
+-----------
+
+Descrição: tese de doutorado em francês estudando o uso de evidential
+           grids. Inclui representação, construção e fusão da malha.
