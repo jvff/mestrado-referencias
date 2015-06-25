@@ -1,0 +1,15 @@
+Resumo das Referências usadas no Projeto de Mestrado
+====================================================
+
+Organização
+------------
+
+O repositório contém cinco arquivos:
+
+- README: arquivo de descrição do repositório
+- commit.bash: script bash para auxiliar na realização de commits para
+  acrescentar referências
+- ref.bib: arquivo com informações das referências no formato BibTeX
+- ref.txt: arquivo com um breve resumo de cada referência assim como
+  comentários
+- ideias.txt: arquivo (obsoleto) com ideias para o mestrado
