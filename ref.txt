@@ -622,7 +622,7 @@ Descrição: um método para aprimorar uma imagem de disparidade esparsa
 Geiger:2011:
 ------------
 
-Descrição: um método para recontstruir pontos tridimensionais usando
+Descrição: um método para reconstruir pontos tridimensionais usando
            imagens estereoscópicas mudando no tempo. A ideia é encontrar
            características em quatro imagens, o par de imagens
            estereoscópicas do instante atual e o par do instante
@@ -634,5 +634,5 @@ Descrição: um método para recontstruir pontos tridimensionais usando
 Teodoro:2012:
 -------------
 
-Descrição: implementação paralela do método para reconstruir morfológica
-           em imagens em tons de cinza.
+Descrição: implementação paralela do método para reconstrução
+           morfológica em imagens em tons de cinza.
