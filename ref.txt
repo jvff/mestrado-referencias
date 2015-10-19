@@ -662,3 +662,9 @@ ViasSeguras:2015:
 -----------------
 
 Descrição: site com estatísticas sobre acidentes no trânsito.
+
+ViasSeguras:2015:2:
+-------------------
+
+Descrição: site com informações sobre acidentes com causa relacionada a
+           fator humano.
