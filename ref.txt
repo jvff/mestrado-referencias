@@ -651,3 +651,9 @@ Moras:2013:
 
 Descrição: tese de doutorado em francês estudando o uso de evidential
            grids. Inclui representação, construção e fusão da malha.
+
+Vitor:2013:
+-----------
+
+Descrição: artigo do Giovani explicando a percepção, em que a
+           classificação é feita usando uma rede neural.
