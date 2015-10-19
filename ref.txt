@@ -657,3 +657,8 @@ Vitor:2013:
 
 Descrição: artigo do Giovani explicando a percepção, em que a
            classificação é feita usando uma rede neural.
+
+ViasSeguras:2015:
+-----------------
+
+Descrição: site com estatísticas sobre acidentes no trânsito.
