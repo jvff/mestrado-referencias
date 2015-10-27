@@ -668,3 +668,20 @@ ViasSeguras:2015:2:
 
 Descrição: site com informações sobre acidentes com causa relacionada a
            fator humano.
+
+Hirschmuller:2008:
+------------------
+
+Descrição: técnica para obtenção de mapas de disparidades utilizando
+           duas imagens estereoscópicas. Utiliza iterações para refinar
+           as disparidades a partir de uma estimativa inical. Usa
+           programação dinâmica para reduzir o custo para ajustar as
+           disparidades. As primeiras três iterações são feitas em uma
+           imagem reduzida. As próximas iterações dobram o tamanho da
+           imagem até chegar no tamanho original. Propõe também técnicas
+           para remover picos, consertar erros causados por planos de
+           fundo sem informações de disparidade (sem textura) e também
+           interpolar para encontrar disparidades faltantes, levando-se
+           em conta possíveis oclusões. Aplica a técnica para gerar
+           imagens de relevo de cidades a partir de várias fotografias
+           aéreas.
