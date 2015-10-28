@@ -715,3 +715,13 @@ Descrição: implementação em GPU do algoritmo de obtenção de disparidades
            de dessimilaridade descritae em Birchfield:1998. Contém
            muitas referências interessantes sobre a evolução das
            técnicas de busca de disparidades e da evolução das GPUs
+
+Scharstein:2002:
+----------------
+
+Descrição: elaboração de uma taxonomia para classificar algoritmos de
+           obtenção de disparidades a partir de duas imagens estéreo
+           retificadas. Separa o algoritmo em grandes etapas, e compara
+           diferentes técnicas para cada etapa. Analisa também o
+           desempenho dos resultados. Contém uma boa coletânea de
+           técnicas até a data de publicação.
