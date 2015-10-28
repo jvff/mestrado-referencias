@@ -696,3 +696,13 @@ Descrição: implementação em GPU do algoritmo de obtenção de disparidades
            técnica de pós-processamento aplicada é usar as disparidades
            obtidas através da inversão das imagens (esquerda e direita)
            para verificar a consistência.
+
+Birchfield:1998:
+----------------
+
+Descrição: propõe uma medida de dessimilaridade de pixels que não é
+           sensível à amostragem. Prova a eficácia da medida usando
+           matemática e depois aplica em imagens teste. A medida
+           interpola um pixel com os seus vizinhos, em cada imagem, e
+           procura a menor diferença entre o pixel de uma imagem e a
+           interpolação na outra imagem.
