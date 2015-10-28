@@ -706,3 +706,12 @@ Descrição: propõe uma medida de dessimilaridade de pixels que não é
            interpola um pixel com os seus vizinhos, em cada imagem, e
            procura a menor diferença entre o pixel de uma imagem e a
            interpolação na outra imagem.
+
+Gibson:2008:
+------------
+
+Descrição: implementação em GPU do algoritmo de obtenção de disparidades
+           descrito em Hirschmuller:2008. Usa como função custo a medida
+           de dessimilaridade descritae em Birchfield:1998. Contém
+           muitas referências interessantes sobre a evolução das
+           técnicas de busca de disparidades e da evolução das GPUs
