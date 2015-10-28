@@ -685,3 +685,14 @@ Descrição: técnica para obtenção de mapas de disparidades utilizando
            em conta possíveis oclusões. Aplica a técnica para gerar
            imagens de relevo de cidades a partir de várias fotografias
            aéreas.
+
+Ernst:2008:
+-----------
+
+Descrição: implementação em GPU do algoritmo de obtenção de disparidades
+           descrito em Hirschmuller:2008. Usa como custo Mutual
+           Information, assim como na descrição original. Aplica uso de
+           estimativas hierarquicas do mapa de disparidades. A única
+           técnica de pós-processamento aplicada é usar as disparidades
+           obtidas através da inversão das imagens (esquerda e direita)
+           para verificar a consistência.
