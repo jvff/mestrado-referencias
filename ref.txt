@@ -725,3 +725,10 @@ Descrição: elaboração de uma taxonomia para classificar algoritmos de
            diferentes técnicas para cada etapa. Analisa também o
            desempenho dos resultados. Contém uma boa coletânea de
            técnicas até a data de publicação.
+
+Hart:2009:
+----------
+
+Descrição: descrição da história da transformada de Hough, desde a
+           patente original até a formulação utilizada em processamento
+           de imagens.
