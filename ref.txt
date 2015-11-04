@@ -732,3 +732,17 @@ Hart:2009:
 Descrição: descrição da história da transformada de Hough, desde a
            patente original até a formulação utilizada em processamento
            de imagens.
+
+Freund:1995:
+------------
+
+Descrição: proposta do algoritmo AdaBoost, que utiliza um conjunto de
+           classificadores fracos para formar um classificador forte.
+           Prova com formalismo matemático que o erro do classificador
+           forte diminui exponencialmente com o número de
+           classificadores fracos acrescentados, desde que os
+           classificadores fracos tenham erro ao menos um pouco melhor
+           que um classificador aleatório. Para a classificação em
+           várias classes, basta um classificador fraco que tenha um
+           bom desempenho para uma das classes para fortalecer o
+           classificador forte.
