@@ -746,3 +746,20 @@ Descrição: proposta do algoritmo AdaBoost, que utiliza um conjunto de
            várias classes, basta um classificador fraco que tenha um
            bom desempenho para uma das classes para fortalecer o
            classificador forte.
+
+Garrido:1998:
+-------------
+
+Descrição: Propõe o uso de operações morfológicas para extrair formas em
+           movimento da imagem. O movimento desejado pode ser modelado
+           por um mapa de disparidade em que cada pixel contem uma
+           disparidade (deltaX, deltaY) de onde espera-se que o pixel
+           estará no próximo quadro. Modelando o movimento é possível
+           extrair formas realizando determinados movimentos. Usa árvore
+           de máximos (max-tree) para realizar as operações
+           morfológicas: abertura morfológica (usando erosão por um
+           elemento estruturado), abertura de áreas e remoção de
+           contrastes (possivelmente uma variação do Hmin). Uma função
+           custo é estabelecida para as operações de remoção de
+           elementos em movimento para evitar que formas sejam removidas
+           em um quadro e restauradas em um outro.
